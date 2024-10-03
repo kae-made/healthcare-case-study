@@ -1,0 +1,228 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	'対象者',
+	1,
+	'HC_ADS',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_BATTR
+	VALUES ("36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"00000000-0000-0000-0000-000000000000",
+	'TargetID',
+	'',
+	'',
+	'TargetID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("4dd74ade-ae06-496f-9b53-9e02bfa48463",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_BATTR
+	VALUES ("4dd74ade-ae06-496f-9b53-9e02bfa48463",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("4dd74ade-ae06-496f-9b53-9e02bfa48463",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	'Name',
+	'',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("0fef686a-5d8e-4777-b924-71e98674bc1b",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_BATTR
+	VALUES ("0fef686a-5d8e-4777-b924-71e98674bc1b",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("0fef686a-5d8e-4777-b924-71e98674bc1b",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"4dd74ade-ae06-496f-9b53-9e02bfa48463",
+	'Address',
+	'',
+	'',
+	'Address',
+	0,
+	"6a8bfdca-4044-43d1-9a9a-0af264fbb9d6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("6a8bfdca-4044-43d1-9a9a-0af264fbb9d6",
+	"00000000-0000-0000-0000-000000000000",
+	'Address',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("5e6ada5c-ae92-44e0-ab6a-f495edea143e",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_BATTR
+	VALUES ("5e6ada5c-ae92-44e0-ab6a-f495edea143e",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("5e6ada5c-ae92-44e0-ab6a-f495edea143e",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"0fef686a-5d8e-4777-b924-71e98674bc1b",
+	'TelNo',
+	'',
+	'',
+	'TelNo',
+	0,
+	"b87b8546-4720-472b-81e0-7b8f032786ae",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("b87b8546-4720-472b-81e0-7b8f032786ae",
+	"00000000-0000-0000-0000-000000000000",
+	'Tel No',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("159fce16-fcc5-4a37-9710-deed04954b72",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_BATTR
+	VALUES ("159fce16-fcc5-4a37-9710-deed04954b72",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("159fce16-fcc5-4a37-9710-deed04954b72",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"5e6ada5c-ae92-44e0-ab6a-f495edea143e",
+	'Birthday',
+	'',
+	'',
+	'Birthday',
+	0,
+	"ba5eda7a-def5-0000-0000-00000000000e",
+	'',
+	'');
+INSERT INTO O_DBATTR
+	VALUES ("a3ea947f-5948-46ee-856d-5133fde30346",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	'',
+	3,
+	0);
+INSERT INTO O_BATTR
+	VALUES ("a3ea947f-5948-46ee-856d-5133fde30346",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_ATTR
+	VALUES ("a3ea947f-5948-46ee-856d-5133fde30346",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"159fce16-fcc5-4a37-9710-deed04954b72",
+	'Age',
+	'',
+	'',
+	'Age',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	0,
+	"5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"5c553c37-de60-4936-b6e2-004a60f923e4",
+	"49ba0f50-ceec-4524-bd26-828377093522",
+	"922362da-0bac-4ee8-ac39-91948e6a8878",
+	"8fc4d655-f706-40b5-9804-ead7073e782d",
+	"d7b7ea44-59ce-4e32-885b-12aff90cd2de",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'地方行政担当部局',
+	'LADID',
+	'R2.''管轄にある''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"5c553c37-de60-4936-b6e2-004a60f923e4",
+	"49ba0f50-ceec-4524-bd26-828377093522",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	0,
+	"5c553c37-de60-4936-b6e2-004a60f923e4",
+	"922362da-0bac-4ee8-ac39-91948e6a8878",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("8fc4d655-f706-40b5-9804-ead7073e782d",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	1,
+	'LADID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	'../地方行政担当部局/地方行政担当部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("8fc4d655-f706-40b5-9804-ead7073e782d",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	"a3ea947f-5948-46ee-856d-5133fde30346",
+	'LADID',
+	'',
+	'',
+	'LADID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_OIDA
+	VALUES ("36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	0,
+	'TargetID');
+INSERT INTO O_OIDA
+	VALUES ("8fc4d655-f706-40b5-9804-ead7073e782d",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	0,
+	'LADID');
+INSERT INTO O_ID
+	VALUES (1,
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO O_OIDA
+	VALUES ("4dd74ade-ae06-496f-9b53-9e02bfa48463",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	1,
+	'Name');
+INSERT INTO O_OIDA
+	VALUES ("0fef686a-5d8e-4777-b924-71e98674bc1b",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	1,
+	'Address');
+INSERT INTO O_ID
+	VALUES (2,
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7");
+INSERT INTO PE_PE
+	VALUES ("ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	1,
+	"18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	"7f901e5d-d61e-4ef7-8b3f-c6033286df06",
+	'Gait Analysis',
+	'',
+	0,
+	'../Gait Analysis.xtuml');

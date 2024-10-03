@@ -1,0 +1,158 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	'地方行政担当部局',
+	4,
+	'HC_LGD',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_BATTR
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_ATTR
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	"00000000-0000-0000-0000-000000000000",
+	'LADID',
+	'',
+	'',
+	'LADID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("f86d0d63-c0b9-44c5-9c3f-dd88b756ffed",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_BATTR
+	VALUES ("f86d0d63-c0b9-44c5-9c3f-dd88b756ffed",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_ATTR
+	VALUES ("f86d0d63-c0b9-44c5-9c3f-dd88b756ffed",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	"5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	'Name',
+	'',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("3bb61a78-64d5-4f67-9cb2-8c0111996a15",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_BATTR
+	VALUES ("3bb61a78-64d5-4f67-9cb2-8c0111996a15",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_ATTR
+	VALUES ("3bb61a78-64d5-4f67-9cb2-8c0111996a15",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	"f86d0d63-c0b9-44c5-9c3f-dd88b756ffed",
+	'Address',
+	'',
+	'',
+	'Address',
+	0,
+	"6a8bfdca-4044-43d1-9a9a-0af264fbb9d6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("6a8bfdca-4044-43d1-9a9a-0af264fbb9d6",
+	"00000000-0000-0000-0000-000000000000",
+	'Address',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("80b700c5-fb42-45b7-b100-dee9ec008e65",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_BATTR
+	VALUES ("80b700c5-fb42-45b7-b100-dee9ec008e65",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_ATTR
+	VALUES ("80b700c5-fb42-45b7-b100-dee9ec008e65",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	"3bb61a78-64d5-4f67-9cb2-8c0111996a15",
+	'問合せ電話番号',
+	'',
+	'',
+	'問合せ電話番号',
+	0,
+	"b87b8546-4720-472b-81e0-7b8f032786ae",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("b87b8546-4720-472b-81e0-7b8f032786ae",
+	"00000000-0000-0000-0000-000000000000",
+	'Tel No',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("ea6965dc-c651-4566-8000-08c115a3d477",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_BATTR
+	VALUES ("ea6965dc-c651-4566-8000-08c115a3d477",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_ATTR
+	VALUES ("ea6965dc-c651-4566-8000-08c115a3d477",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	"80b700c5-fb42-45b7-b100-dee9ec008e65",
+	'担当メールアドレス',
+	'',
+	'',
+	'担当メールアドレス',
+	0,
+	"dc7e2186-d3af-4eae-bae9-9a6b8d5c9c93",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("dc7e2186-d3af-4eae-bae9-9a6b8d5c9c93",
+	"00000000-0000-0000-0000-000000000000",
+	'Mail Address',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_OIDA
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	0,
+	'LADID');
+INSERT INTO O_ID
+	VALUES (1,
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO O_OIDA
+	VALUES ("f86d0d63-c0b9-44c5-9c3f-dd88b756ffed",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	1,
+	'Name');
+INSERT INTO O_OIDA
+	VALUES ("3bb61a78-64d5-4f67-9cb2-8c0111996a15",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	1,
+	'Address');
+INSERT INTO O_ID
+	VALUES (2,
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a");
+INSERT INTO PE_PE
+	VALUES ("51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	1,
+	"18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	"7f901e5d-d61e-4ef7-8b3f-c6033286df06",
+	'Gait Analysis',
+	'',
+	0,
+	'../Gait Analysis.xtuml');

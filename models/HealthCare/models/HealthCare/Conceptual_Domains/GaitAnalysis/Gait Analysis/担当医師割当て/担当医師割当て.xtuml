@@ -1,0 +1,220 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	'担当医師割当て',
+	10,
+	'HC_ASD',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"2b434191-08a3-41e7-98ba-373e93e26ae9",
+	0,
+	"6b671b5a-b0c7-4321-90f5-a81ed7a559a2",
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"b1238403-f39e-449d-b4c6-68382757b8e9",
+	"47db540a-6ef5-490d-b4a4-0cab58344f00",
+	"961a661c-3cf1-4795-bf0b-87722a553773",
+	"3196b188-5903-4129-8d5a-4685bb3cf9c6",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'被験者',
+	'TargetID',
+	'R8.''を担当する''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"b1238403-f39e-449d-b4c6-68382757b8e9",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("6b671b5a-b0c7-4321-90f5-a81ed7a559a2",
+	"2b434191-08a3-41e7-98ba-373e93e26ae9",
+	0,
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"47db540a-6ef5-490d-b4a4-0cab58344f00",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("961a661c-3cf1-4795-bf0b-87722a553773",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	1,
+	'TargetID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("36e9ad08-fa9c-431e-b9f4-449d1d29fdff",
+	"ebec06ee-3b62-4b1d-9b74-48aacb7ffaa7",
+	'../対象者/対象者.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("961a661c-3cf1-4795-bf0b-87722a553773",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"00000000-0000-0000-0000-000000000000",
+	'被験者TargetID',
+	'',
+	'被験者',
+	'TargetID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"1a2050a8-8294-4303-84c0-1c97ef7bc363",
+	0,
+	"77cd28d0-93bf-43ba-84c9-045d9a8f8736",
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"b1238403-f39e-449d-b4c6-68382757b8e9",
+	"35864acb-d7c5-468b-8799-70b2a0ab79c5",
+	"66c75c0a-01f2-4a7e-94b6-06af750cf999",
+	"96f0665c-0637-412a-badc-08ae4544aef7",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'医師',
+	'DoctorID',
+	'R8.''に診断を受ける''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("77cd28d0-93bf-43ba-84c9-045d9a8f8736",
+	"1a2050a8-8294-4303-84c0-1c97ef7bc363",
+	0,
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"35864acb-d7c5-468b-8799-70b2a0ab79c5",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("66c75c0a-01f2-4a7e-94b6-06af750cf999",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"77cd28d0-93bf-43ba-84c9-045d9a8f8736",
+	"1a2050a8-8294-4303-84c0-1c97ef7bc363",
+	1,
+	'DoctorID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("77cd28d0-93bf-43ba-84c9-045d9a8f8736",
+	"1a2050a8-8294-4303-84c0-1c97ef7bc363",
+	'../Doctor/Doctor.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("66c75c0a-01f2-4a7e-94b6-06af750cf999",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"961a661c-3cf1-4795-bf0b-87722a553773",
+	'医師DoctorID',
+	'',
+	'医師',
+	'DoctorID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	0,
+	"5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"1a88d688-b514-40f7-ab9b-020172135821",
+	"481ae5c7-1df1-403e-ae4b-3c130b41ed5d",
+	"3b5d14a8-b59a-4e21-9057-d2a550f72487",
+	"8551473e-c566-45e0-bbdd-bf580843c2a3",
+	"23a2059e-021e-404a-abef-3d4e1f001efe",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'地方行政担当部局',
+	'LADID',
+	'R9.''請け負う''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"1a88d688-b514-40f7-ab9b-020172135821",
+	"481ae5c7-1df1-403e-ae4b-3c130b41ed5d",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	0,
+	"1a88d688-b514-40f7-ab9b-020172135821",
+	"3b5d14a8-b59a-4e21-9057-d2a550f72487",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_REF
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"2b434191-08a3-41e7-98ba-373e93e26ae9",
+	0,
+	"a25b965a-fe0d-4aea-9b25-a7ccf363a68a",
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"b1238403-f39e-449d-b4c6-68382757b8e9",
+	"47db540a-6ef5-490d-b4a4-0cab58344f00",
+	"8551473e-c566-45e0-bbdd-bf580843c2a3",
+	"33aec018-6f42-4df9-ab65-e125983a823b",
+	"23a2059e-021e-404a-abef-3d4e1f001efe",
+	0,
+	'',
+	'被験者',
+	'LADID',
+	'R8.''を担当する''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("a25b965a-fe0d-4aea-9b25-a7ccf363a68a",
+	"2b434191-08a3-41e7-98ba-373e93e26ae9",
+	0,
+	"474852b4-337f-46ad-90ba-cdcfbb7fed03",
+	"47db540a-6ef5-490d-b4a4-0cab58344f00",
+	'../Gait Analysis.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("8551473e-c566-45e0-bbdd-bf580843c2a3",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	1,
+	'LADID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("5bfcd766-9fb2-406d-b5c3-252d7e4faaf7",
+	"51215fc4-a6e9-42bc-ba4a-3b4eca9b565a",
+	'../地方行政担当部局/地方行政担当部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("8551473e-c566-45e0-bbdd-bf580843c2a3",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	"66c75c0a-01f2-4a7e-94b6-06af750cf999",
+	'行政LADID',
+	'
+
+',
+	'行政',
+	'LADID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580");
+INSERT INTO O_OIDA
+	VALUES ("961a661c-3cf1-4795-bf0b-87722a553773",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	0,
+	'被験者TargetID');
+INSERT INTO O_OIDA
+	VALUES ("66c75c0a-01f2-4a7e-94b6-06af750cf999",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	0,
+	'医師DoctorID');
+INSERT INTO O_OIDA
+	VALUES ("8551473e-c566-45e0-bbdd-bf580843c2a3",
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	0,
+	'行政LADID');
+INSERT INTO O_ID
+	VALUES (1,
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580");
+INSERT INTO O_ID
+	VALUES (2,
+	"11fbda37-fcf1-4c84-bcf9-9360a193c580");
+INSERT INTO PE_PE
+	VALUES ("11fbda37-fcf1-4c84-bcf9-9360a193c580",
+	1,
+	"18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("18e4bf27-179d-436d-af18-6cea09ed7ce9",
+	"00000000-0000-0000-0000-000000000000",
+	"7f901e5d-d61e-4ef7-8b3f-c6033286df06",
+	'Gait Analysis',
+	'',
+	0,
+	'../Gait Analysis.xtuml');
